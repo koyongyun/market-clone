@@ -1,0 +1,18 @@
+main {
+  padding: 30px 20px 30px 20px;
+}
+
+.item-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.item-list__img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-right: 20px;
+}

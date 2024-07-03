@@ -1,0 +1,35 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw; /*100%로 채운다 라는 의미*/
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eaeaea;
+  background-color: white;
+}
+
+.footer-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.footer-icons__desc {
+  font-weight: bold;
+  margin-top: 5px;
+  transform: scale(0.8);
+}
+
+.footer-icons {
+  font-size: 6%;
+  display: flex;
+  align-items: center;
+  flex-direction: column; /*위 아래로 배치해주는 코드-flex가 가로 배치이므로 위아래 배치*/
+  justify-content: center;
+  margin: 0 10px 0 10px;
+}
+
+.footer-icons__img {
+  width: 30px;
+}
